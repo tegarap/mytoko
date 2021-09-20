@@ -2,7 +2,7 @@ package database
 
 import (
 	"gorm.io/gorm"
-	"mytoko/models"
+	"github.com/tegarap/mytoko/models"
 )
 
 type (

@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 	"github.com/labstack/echo/v4"
-	"mytoko/config"
-	"mytoko/controllers"
-	"mytoko/lib/database"
-	m "mytoko/lib/middlewares"
-	"mytoko/routes"
+	"github.com/tegarap/mytoko/config"
+	"github.com/tegarap/mytoko/controllers"
+	"github.com/tegarap/mytoko/lib/database"
+	m "github.com/tegarap/mytoko/lib/middlewares"
+	"github.com/tegarap/mytoko/routes"
 )
 
 func main()  {
@@ -34,7 +34,7 @@ func main()  {
 	routes.ProductPath(e, newProductController)
 
 	// run server
-	address := fmt.Sprintf("localhost:%d", 5050)
+	address := fmt.Sprintf("localhost:%d", 8080)
 	m.LogMiddlewares(e)
 	e.Logger.Fatal(e.Start(address))
 }

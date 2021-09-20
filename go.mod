@@ -1,4 +1,4 @@
-module mytoko
+module github.com/tegarap/mytoko
 
 go 1.16
 

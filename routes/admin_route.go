@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"mytoko/controllers"
+	"github.com/tegarap/mytoko/controllers"
 )
 
 func AdminPath(e *echo.Echo, adminController *controllers.AdminController) {

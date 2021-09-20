@@ -2,9 +2,9 @@ package config
 
 import (
 	"github.com/labstack/gommon/log"
+	"github.com/tegarap/mytoko/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	"mytoko/models"
 )
 
 func DBConnect() *gorm.DB {

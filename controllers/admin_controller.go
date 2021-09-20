@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/labstack/echo/v4"
-	"mytoko/lib/database"
-	"mytoko/models"
+	"github.com/tegarap/mytoko/lib/database"
+	"github.com/tegarap/mytoko/models"
 	"net/http"
 	"strconv"
 )
