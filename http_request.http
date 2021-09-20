@@ -1,0 +1,25 @@
+POST http://localhost:5050/admin
+Content-Type: application/json
+
+{
+  "username": "hiadmin3",
+  "password": "1234qwer"
+}
+
+
+###{
+### "Sku": "1312SDJSDKOE",
+###  "Name": "INI PRODUCT COBA2"
+###}
+
+###
+
+GET http://localhost:5050/admin
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:5050/admin/3
+Content-Type: application/json
+
+###
